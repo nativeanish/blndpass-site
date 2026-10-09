@@ -14,5 +14,6 @@ export default defineConfig({
       },
     },
   ],
-  base: '/blndpass-site/',
+  // The site is served from the custom domain blindpass.tech, so asset URLs must be root-relative.
+  base: '/',
 })
